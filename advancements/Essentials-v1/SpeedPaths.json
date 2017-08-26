@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            	"item": "minecraft:grass_path",
+		          "data": 0
+        	},
+	   "title": "Speed Paths",
+	   "description": "Speed while you walk/run on grass paths.",
+     "announce_to_chat": false
+	},
+  "parent": "essentials-v1:root",
+  "hidden": "false",
+	"criteria":{
+           "speedpaths": {
+               "trigger": "minecraft:impossible"
+           }
+	}
+}

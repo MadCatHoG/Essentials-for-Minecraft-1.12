@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            	"item": "minecraft:skull",
+		          "data": 3
+        	},
+	   "title": "Player Head Drops",
+	   "description": "Players drop their heads upon death by another player.",
+     "announce_to_chat": false
+	},
+  "parent": "essentials-v1:root",
+  "hidden": "false",
+	"criteria":{
+           "playerheaddrops": {
+               "trigger": "minecraft:impossible"
+           }
+	}
+}

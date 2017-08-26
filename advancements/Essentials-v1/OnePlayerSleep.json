@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            	"item": "minecraft:bed",
+		          "data": 9
+        	},
+	   "title": "One Player Sleep",
+	   "description": "A single player can skip the night.",
+     "announce_to_chat": false
+	},
+  "parent": "essentials-v1:root",
+  "hidden": "false",
+	"criteria":{
+           "oneplayersleep": {
+               "trigger": "minecraft:impossible"
+           }
+	}
+}

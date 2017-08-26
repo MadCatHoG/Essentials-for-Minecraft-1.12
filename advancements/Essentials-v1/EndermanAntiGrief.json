@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            	"item": "minecraft:ender_pearl",
+		          "data": 0
+        	},
+	   "title": "Enderman Anti-Grief",
+	   "description": "No more random blocks missing in your world.",
+     "announce_to_chat": false
+	},
+  "parent": "essentials-v1:root",
+  "hidden": "false",
+	"criteria":{
+           "endermanantigrief": {
+               "trigger": "minecraft:impossible"
+           }
+	}
+}

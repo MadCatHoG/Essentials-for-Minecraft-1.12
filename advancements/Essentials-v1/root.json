@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:repeating_command_block"
+        },
+        "title": "Essentials by MadCat",
+        "description": "Function pack installed in your world (visit www.madcatgaming.com for updates)",
+    "background": "minecraft:textures/blocks/command_block.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria":{
+           "root_functions": {
+               "trigger": "minecraft:impossible"
+           }
+	}
+}

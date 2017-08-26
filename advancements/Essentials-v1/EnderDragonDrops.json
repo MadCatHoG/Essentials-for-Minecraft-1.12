@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            	"item": "minecraft:skull",
+		          "data": 5
+        	},
+	   "title": "Ender Dragon Drops",
+	   "description": "Special drops from the End Boss.",
+     "announce_to_chat": false
+	},
+  "parent": "essentials-v1:root",
+  "hidden": "false",
+	"criteria":{
+           "enderdragondrops": {
+               "trigger": "minecraft:impossible"
+           }
+	}
+}
